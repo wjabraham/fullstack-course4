@@ -21,8 +21,20 @@ p {
 
 .section {
     position: relative;
+    background-color: #B4EEB4;
     margin: 10px;
     border: 1px solid black;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    font-size: 125%;
 }
 
 .chicken {
@@ -36,35 +48,8 @@ p {
 
 .sushi {
     background-color: cadetblue;
-}
-
-.title {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 25%;
-    text-align: center;
-    align-content: center;
-    vertical-align: text-bottom;
-    margin: auto;
-    border: 1px solid black;
-    font-size: 125%;
-}
-
-.chicken-title {
-    background-color: cadetblue;
-}
-
-.beef-title {
-    background-color: wheat;
-    color: black;
-}
-
-.sushi-title {
-    background-color: crimson;
     color: white;
 }
-
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
